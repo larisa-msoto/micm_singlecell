@@ -40,11 +40,11 @@ docker start micm-single-cell -a
 4. To open the Jupyter server in a browser (preferably chrome) jus copy and paste one of the following URLs
 
 ``
-https://127.0.0.1:8888/lab 
+http://127.0.0.1:8888/lab 
 ``
 
 ``
-https://localhost:8888/lab 
+http://localhost:8888/lab 
 ``
 
 ### Manual
