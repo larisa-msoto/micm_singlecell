@@ -91,7 +91,7 @@ devtools::install_github(repo = 'mojaveazure/loomR', ref = 'develop')
 3. Clone this repository
 
 ```bash
-git clone 
+git clone https://github.com/larisa-msoto/micm_singlecell.git
 ```
 
 4. Download the data
