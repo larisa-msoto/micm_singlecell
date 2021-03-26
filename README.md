@@ -88,5 +88,18 @@ devtools::install_github('satijalab/seurat-data')
 devtools::install_github(repo = 'mojaveazure/loomR', ref = 'develop')
 ```
 
-3. Download the data
+3. Clone this repository
+
+```bash
+git clone 
+```
+
+4. Download the data
+
+```bash
+
+```
+
+
+
 
