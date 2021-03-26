@@ -4,9 +4,11 @@ This workshop intends to introduce the basic concepts underlying single-cell dat
 
 ## Installations
 
-It is highly recommended to setup the Docker image for the workshop, but if you run into issues you can follow the steps listed in the Manual section.
+It is highly recommended to setup the Docker image for the workshop, it will download the data and setup all the required packages. If you run into issues you can follow the steps listed in the Manual section to do the installations and download the data on your own.
 
 ### Using Docker
+
+---
 
 1. Download Docker Desktop App from their [website](https://www.docker.com/products/docker-desktop)
 
@@ -35,7 +37,7 @@ If the container stops during the workshop and you need to re-start it
 docker start micm-single-cell -a
 ```
 
-4. To open the Jupyter server in a browser (preferably chrome) jus copy and paste one of the following URLS 
+4. To open the Jupyter server in a browser (preferably chrome) jus copy and paste one of the following URLs
 
 ``
 https://127.0.0.1:8888/lab 
@@ -46,6 +48,8 @@ https://localhost:8888/lab
 ``
 
 ### Manual
+
+---
 
 1. Make sure you have installed Python 3.8.8 and R 4.0.3
 
