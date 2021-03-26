@@ -15,7 +15,7 @@ RUN conda install -c bu_cnio r-seuratwrappers \
 	&& conda install -c bioconda r-velocyto.r 
 RUN Rscript -e "devtools::install_github('satijalab/seurat-data')"
 RUN Rscript -e "devtools::install_github(repo = 'mojaveazure/loomR', ref = 'develop')"
-RUN Rscript -e "BiocManager::install(c('limma','TENxBrainData','slingshot'))"
+RUN Rscript -e "BiocManager::install(c('limma','TENxBrainData'))"
 
 # Copy local files
 COPY data/ /home/jovyan/data/
