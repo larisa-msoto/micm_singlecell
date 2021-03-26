@@ -94,11 +94,11 @@ devtools::install_github(repo = 'mojaveazure/loomR', ref = 'develop')
 git clone https://github.com/larisa-msoto/micm_singlecell.git
 ```
 
-4. Download the data
+4. Download the data using the following OneDrive link 
 
-```bash
-
-```
+``
+https://mcgill-my.sharepoint.com/:f:/g/personal/larisa_moralessoto_mail_mcgill_ca/Eh8_BuTesm9DnKqByzvHE14BYseJkMRmjUpGnxdLLA3U2Q?e=hvoUgy
+``
 
 
 
