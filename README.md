@@ -10,7 +10,7 @@ It is highly recommended to setup the Docker image for the workshop, it will dow
 
 ---
 
-1. Download Docker Desktop App from their [website](https://www.docker.com/products/docker-desktop)
+1. Download Docker Desktop from their [website](https://www.docker.com/products/docker-desktop). If you're using Windows 10 you can read [this documentation](https://hub.docker.com/editions/community/docker-ce-desktop-windows/) to set it up.
 
 2. Pull the image
 
@@ -22,36 +22,30 @@ docker pull larisamsoto/micm_singlecell
 To enable jupyter lab - this option will not work on Safari
 
 ```bash
-docker run -p 8888:8888 -e JUPYTER_ENABLE_LAB=yes --name micm-single-cell larisamsoto/micm_singlecell
+docker run -p 8888:8888 -e JUPYTER_ENABLE_LAB=yes -d larisamsoto/micm_singlecell
 ```
 
 If you prefer to use Jupyter Notebook
 
 ```bash
-docker run -p 8888:8888 --name micm-single-cell larisamsoto/micm_singlecell
+docker run -p 8888:8888 -d larisamsoto/micm_singlecell
 ```
 
-If the container stops during the workshop and you need to re-start it
-
-```bash
-docker start micm-single-cell -a
-```
-
-4. To open the Jupyter server in a browser (preferably chrome) jus copy and paste one of the following URLs
+4. To open the Jupyter server in a browser (preferably chrome) just copy and paste one of the following URLs:
 
 ``
-https://127.0.0.1:8888/lab 
+http://127.0.0.1:8888/lab 
 ``
 
 ``
-https://localhost:8888/lab 
+http://localhost:8888/lab 
 ``
 
 ### Manual
 
 ---
 
-1. Make sure you have installed Python 3.8.8 and R 4.0.3
+1. Make sure you have installed Python 3.8.8, Jupyter and R 4.0.3
 
 2. Install the required Python packages using conda
 
@@ -95,7 +89,7 @@ git clone https://github.com/larisa-msoto/micm_singlecell.git
 ```
 
 4. Download the data using this [OneDrive link](https://mcgill-my.sharepoint.com/:f:/g/personal/larisa_moralessoto_mail_mcgill_ca/Eh8_BuTesm9DnKqByzvHE14BYseJkMRmjUpGnxdLLA3U2Q?e=hvoUgy
-) into the folder `data
+) into the folder `data`.
 
 
 
