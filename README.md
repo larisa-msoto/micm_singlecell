@@ -6,7 +6,7 @@ This workshop intends to introduce the basic concepts underlying single-cell dat
 
 You can download the material covered in the workshop from [OneDrive](https://mcgill-my.sharepoint.com/:b:/g/personal/larisa_moralessoto_mail_mcgill_ca/EUtq2Og6kwVFvp_I-HcgyfEB5uh1-9lHYV1ULhp17p4NKg?e=Nkwjvg). 
 
-## Installations {.tabset}
+## Installations 
 
 There are two options: Docker and Manual. It is highly recommended to setup the Docker image for the workshop, it will download the data and setup all the required packages. If you want to set up everything on your own 
 you can follow the steps listed in the Manual section. 
